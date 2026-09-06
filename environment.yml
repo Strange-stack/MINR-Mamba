@@ -1,0 +1,26 @@
+name: minr-mamba
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.1
+  - numpy
+  - pyyaml
+  - scipy
+  - scikit-image
+  - opencv
+  - tqdm
+  - tensorboard
+  - pip:
+      - einops
+      - natsort
+      - packaging
+      - ninja
+
+# After creating this environment, install the Mamba CUDA extensions with:
+#   pip install -r requirements-mamba.txt --no-build-isolation

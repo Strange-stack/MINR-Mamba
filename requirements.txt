@@ -1,0 +1,11 @@
+einops
+natsort
+numpy
+opencv-python
+pyyaml
+scikit-image
+scipy
+tensorboard
+torch
+torchvision
+tqdm

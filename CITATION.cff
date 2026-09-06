@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: "If you use MINR-Mamba in your research, please cite this repository and the related upstream works."
+title: "MINR-Mamba"
+version: "0.1.0"
+date-released: "2026-09-06"
+authors:
+  - name: "MINR-Mamba Contributors"
+keywords:
+  - image restoration
+  - image deraining
+  - mamba
+  - implicit neural representation
+  - state space model
+references:
+  - type: conference-paper
+    title: "Restormer: Efficient Transformer for High-Resolution Image Restoration"
+    authors:
+      - name: "Syed Waqas Zamir"
+      - name: "Aditya Arora"
+      - name: "Salman Khan"
+      - name: "Munawar Hayat"
+      - name: "Fahad Shahbaz Khan"
+      - name: "Ming-Hsuan Yang"
+    collection-title: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    year: 2022
+  - type: conference-paper
+    title: "MambaIR: A Simple Baseline for Image Restoration with State-Space Model"
+    authors:
+      - name: "Hang Guo"
+      - name: "Jinmin Li"
+      - name: "Tao Dai"
+      - name: "Zhihao Ouyang"
+      - name: "Xudong Ren"
+      - name: "Shu-Tao Xia"
+    collection-title: "European Conference on Computer Vision"
+    year: 2024
+  - type: article
+    title: "MambaIRv2: Attentive State Space Restoration"
+    authors:
+      - name: "Hang Guo"
+      - name: "Yong Guo"
+      - name: "Yaohua Zha"
+      - name: "Yulun Zhang"
+      - name: "Wenbo Li"
+      - name: "Tao Dai"
+      - name: "Shu-Tao Xia"
+      - name: "Yawei Li"
+    journal: "arXiv preprint arXiv:2411.15269"
+    year: 2024
+  - type: conference-paper
+    title: "Implicit Neural Representation for Cooperative Low-light Image Enhancement"
+    authors:
+      - name: "Shuzhou Yang"
+      - name: "Moxuan Ding"
+      - name: "Yanmin Wu"
+      - name: "Zihan Li"
+      - name: "Jian Zhang"
+    collection-title: "Proceedings of the IEEE/CVF International Conference on Computer Vision"
+    year: 2023
+  - type: conference-paper
+    title: "Bidirectional Multi-Scale Implicit Neural Representations for Image Deraining"
+    authors:
+      - name: "Xiang Chen"
+      - name: "Jinshan Pan"
+      - name: "Jiangxin Dong"
+    collection-title: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    year: 2024
